@@ -5677,4 +5677,11 @@ def generate_demo_data(regions=6, days=365, outbreak_intensity=5,
 # ============================================
 
 if __name__ == "__main__":
+    # Set page config first
+    st.set_page_config(
+        page_title="EpiGeoSim-X Pro: Advanced Spatiotemporal Disease Intelligence Platform",
+        page_icon="🦠",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
     main()
