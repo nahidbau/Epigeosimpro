@@ -1,0 +1,10 @@
+[server]
+maxUploadSize = 1000
+enableCORS = false
+
+[theme]
+primaryColor = "#1a5f7a"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
